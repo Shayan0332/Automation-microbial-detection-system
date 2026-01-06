@@ -22,7 +22,7 @@ GPIO.setup(RIGHT_LIMIT, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 GPIO.output(EN_PIN, GPIO.LOW)   # Enable motor
 
-STEP_DELAY = 0.003
+STEP_DELAY = 0.001
 running = False
 
 # ---------------- MOTOR FUNCTIONS ----------------
