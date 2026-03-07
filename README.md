@@ -28,6 +28,10 @@ Currently in the hardware integration and raw wiring phase.
 
 ![Raspberry Pi Setup](images/raspberry_pi_setup.jpeg)
 
+# Wiring Documentation
+
+A detailed Fritzing wiring diagram will be added once the hardware configuration is finalized.
+
 ## Software
 
 Python scripts used for:
