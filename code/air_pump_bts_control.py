@@ -1,8 +1,10 @@
 import RPi.GPIO as GPIO
 import time
 
-# Pin configuration
+# Set PWM pin for BTS motor driver
 PWM_PIN = 18
+
+# Direction control pin
 DIR_PIN = 23
 
 # GPIO setup
