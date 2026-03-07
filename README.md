@@ -32,6 +32,16 @@ Currently in the hardware integration and raw wiring phase.
 
 A detailed Fritzing wiring diagram will be added once the hardware configuration is finalized.
 
+## Code Overview
+
+### air_pump_bts_control.py
+Python script used to control the air pump through a BTS motor driver using Raspberry Pi GPIO PWM signals.
+
+Features:
+- Low-speed pump operation
+- High-speed pump operation
+- PWM-based control
+
 ## Software
 
 Python scripts used for:
