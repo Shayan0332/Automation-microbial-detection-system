@@ -1,19 +1,26 @@
 # Automation Microbial Detection System
 
-A Raspberry Pi–based automation platform for precise and safe motion control in microbial detection applications.
+This project focuses on developing an automated system for microbial detection using Raspberry Pi and various hardware modules.
 
-## Features
-- Stepper motor control
-- Limit switch safety mechanism
-- Modular and scalable design
-- Future support for sensors and mobile app control
-
-## Hardware Used
+## Technologies Used
 - Raspberry Pi
-- Stepper Motor
-- Stepper Motor Driver
-- Limit Switch
-- External Power Supply
+- Stepper Motors
+- Motor Drivers
+- BTS Motor Controller
+- Relay Modules
+- Solenoid Valves
+- Air Pumps
+- Limit Switches
+- Water Level Sensor
+- 12V Heater
+
+## Project Status
+Currently in the hardware integration and system wiring phase.
+
+## Future Work
+- Full automation control
+- AI-based microbial detection
+- Mobile application integration
 
 ## Software
 - Python
