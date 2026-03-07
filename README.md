@@ -1,27 +1,43 @@
 # Automation Microbial Detection System
 
-This project focuses on developing an automated system for microbial detection using Raspberry Pi and various hardware modules.
-
-## Technologies Used
-- Raspberry Pi
-- Stepper Motors
-- Motor Drivers
-- BTS Motor Controller
-- Relay Modules
-- Solenoid Valves
-- Air Pumps
-- Limit Switches
-- Water Level Sensor
-- 12V Heater
+An IoT-based automation system designed to assist in microbial detection workflows using Raspberry Pi and multiple hardware components.
 
 ## Project Status
-Currently in the hardware integration and system wiring phase.
+Currently in the hardware integration and raw wiring phase.
 
-## Future Work
-- Full automation control
-- AI-based microbial detection
-- Mobile application integration
+## Hardware Components
+- Raspberry Pi
+- Stepper Motors
+- Stepper Motor Drivers
+- Relay Modules
+- BTS Motor Driver
+- Air Pump
+- Solenoid Valves
+- Water Level Sensor
+- Limit Switches
+- 12V Heater
+- Camera for image capture
+- DC-DC Buck Converter
+- Battery Power System
+
+## Hardware Wiring Setup
+
+![Wiring Setup](images/wiring_setup.jpeg)
+
+![Relay Connection](images/relay_board_connection.jpeg)
+
+![Raspberry Pi Setup](images/raspberry_pi_setup.jpeg)
 
 ## Software
-- Python
-- RPi.GPIO
+
+Python scripts used for:
+- Stepper motor control
+- GUI motor control
+- Hardware interaction
+
+## Future Work
+
+- Complete system automation
+- Image capture and microbial detection
+- AI-based analysis
+- Remote monitoring interface
